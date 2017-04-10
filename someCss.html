@@ -18,6 +18,21 @@ p.oblique {
     font-style: oblique;
 }
 	p.dotted {border-style: dotted;}
+	
+	.image {
+    position:relative;
+    text-align:center;
+    float: left;
+}
+
+.text {
+    left: 0;
+    position:absolute;
+    top: 100px;
+    width: 100%;
+}
+	
+	
 	</style>
 	</head>
 	<body>
@@ -30,21 +45,19 @@ p.oblique {
 		<a href="https://www.google.com/search?q=uw&newwindow=1&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwis_57_3Y7TAhUKxGMKHejvBHAQ_AUICCgD&biw=1440&bih=727#imgrc=0wPWCx0IJt4_3M:">
 			<img src="https://www.washington.edu/studyabroad/files/2015/02/Cherries.jpg" title="UW" style="width:50px;height:50px;margin:5px">
 		</a>
-		<div class="gallery">
-		<div class="gallery-image">
-  		<img src="https://wallpaperscraft.com/image/puppy_dog_cup_106508_3840x2160.jpg" width="300" height="200" />
-  
-		<div class="gallery-text">
-
-		<h3>Welcome!</h3>
 		
 		<p class="dotted">Hope you have a wonderful day.</p>
 		
-		<p><img src="https://s-media-cache-ak0.pinimg.com/originals/9c/45/70/9c4570a6632f343a0fb74def2e5e56c7.jpg" alt="Cat" width="200" height="200" align="middle" hspace="20">
-  
-		</div>    
-		</div>  
+		<div class="image">
+    		<img src="https://s-media-cache-ak0.pinimg.com/originals/9c/45/70/9c4570a6632f343a0fb74def2e5e56c7.jpg" style="width:200px;height:200px;margin:5px"/>
+    		<div class="text">
+      			 Welcome!
+    		</div>
 		</div>
-	
+		
+		
+		<img src="https://wallpaperscraft.com/image/puppy_dog_cup_106508_3840x2160.jpg" alt="Cat" width="200" height="200" align="middle" hspace="20">
+  
+		
 	</body>
 </html>
